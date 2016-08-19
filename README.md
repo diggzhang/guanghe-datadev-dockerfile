@@ -3,6 +3,8 @@ guanghe-datadev-dockerfile
 
 Based on CentOS 7 dockerfile for MongoDB
 
+## Build Yourself
+
 Get the version of Docker
 
     # docker version
@@ -69,3 +71,5 @@ pull image from registry:
 ```
   $ sudo docker pull registry.cn-hangzhou.aliyuncs.com/onions/zzmongo:latest
 ```
+
+then run it.
