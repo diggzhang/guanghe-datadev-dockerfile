@@ -54,3 +54,18 @@ To mount volume on:
 /data/db from docker inside
 0f996f899312 means container id
 ```
+
+
+## pull image from aliyun-docker server
+
+login aliyun-docker registry:
+
+```
+  $ sudo docker login --username=sunshine.library@aliyun.com registry.cn-hangzhou.aliyuncs.com
+```
+
+pull image from registry:
+
+```
+  $ sudo docker pull registry.cn-hangzhou.aliyuncs.com/onions/zzmongo:latest
+```
